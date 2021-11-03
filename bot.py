@@ -25,8 +25,8 @@ bot = Client('pdisk bot',
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**𝐇𝐞𝐥𝐥𝐨! 👨‍💻{message.chat.first_name}!**\n\n"
-        "𝐈'𝐦 𝐚 𝐏𝐝𝐢𝐬𝐤 🎸Join Telegram @ColorsTamil_Serial_hd  𝐛𝐨𝐭. 𝐉𝐮𝐬𝐭 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐥𝐢𝐧𝐤 𝐨𝐫 𝐅𝐮𝐥𝐥 𝐩𝐨𝐬𝐭... \n 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐬 𝐦𝐚𝐝𝐞 𝐛𝐲 [@𝐓𝐡𝐞𝐓𝐞𝐥𝐞𝐑𝐨𝐢𝐝](https://t.me/TheTeleRoid)")
+        f"**𝗛𝗘𝗟𝗟𝗢! 👨‍💻{message.chat.first_name}!**\n\n"
+        "𝗜 𝗔𝗠 𝗣𝗗𝗜𝗦𝗞 𝗕𝗢𝗧 𝗝𝗨𝗦𝗧 𝗦𝗘𝗡𝗗 𝗠𝗘 𝗟𝗜𝗡𝗞 𝗢𝗥 𝗙𝗨𝗟𝗟 𝗣𝗢𝗦𝗧... \n 𝗧𝗛𝗜𝗦 𝗕𝗢𝗧 𝗜𝗦 𝗠𝗔𝗗𝗘 𝗕𝗬 @𝗞𝗢𝗧_𝗕𝗢𝗧𝗦](https://t.me/KOT_BOTS)")
 
 
 @bot.on_message(filters.text & filters.private)
